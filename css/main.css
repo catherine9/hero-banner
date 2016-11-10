@@ -12,10 +12,9 @@ html {
 }
 
 .banner-content {
-  padding: 0 1rem;
   bottom: 1rem;
   max-width: 50em;
-  right: 0;
+  left: 0;
   top: 0;
   position: absolute;
 }
@@ -23,12 +22,10 @@ html {
 h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 4rem;
-  font-style: bold;
+  font-weight: bold;
   list-style-type: none;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
-  float: left;
-  width: 100%;
 }
 
 .img-flex {
@@ -42,5 +39,8 @@ p {
   font-size: 2rem;
   font-family: "Open Sans", sans-serif;
   float: left;
-  width: 100%;
+}
+
+body {
+  padding: .1em;
 }
