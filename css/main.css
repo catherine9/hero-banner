@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-content {
+  padding: 0 1rem;
+  bottom: 1rem;
+  max-width: 50em;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 4rem;
+  width: 50em;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+}
