@@ -15,9 +15,10 @@ html {
   bottom: 1rem;
   max-width: 50em;
   left: 50%;
-  top: -9%;
+  top: 0%;
   position: absolute;
-  transform: translateX(-75%);
+  transform: translateX(-50%);
+  width: 100%;
 }
 
 h2 {
@@ -42,6 +43,5 @@ p {
 }
 
 body {
-  padding: .1em;
   margin: 0;
 }
