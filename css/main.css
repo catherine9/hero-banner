@@ -14,9 +14,10 @@ html {
 .banner-content {
   bottom: 1rem;
   max-width: 50em;
-  left: 0;
+  left: 50%;
   top: 0;
   position: absolute;
+  transform: translateX(-50%);
 }
 
 h1 {
