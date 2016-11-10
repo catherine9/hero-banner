@@ -15,9 +15,9 @@ html {
   bottom: 1rem;
   max-width: 50em;
   left: 50%;
-  top: 0;
+  top: -9%;
   position: absolute;
-  transform: translateX(-50%);
+  transform: translateX(-75%);
 }
 
 h2 {
@@ -39,7 +39,6 @@ p {
   font-style: italic;
   font-size: 1.5rem;
   font-family: "Open Sans", sans-serif;
-  float: left;
 }
 
 body {
