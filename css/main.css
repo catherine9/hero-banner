@@ -16,23 +16,19 @@ html {
   bottom: 1rem;
   max-width: 50em;
   left: 50%;
-  top: 0%;
   position: absolute;
   transform: translateX(-50%);
   width: 100%;
+  margin-bottom: -1.5rem;
 }
 
 h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 4rem;
   font-weight: bold;
-  list-style-type: none;
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
-  margin-bottom: 1rem;
-  margin-left: 0;
-  margin-right: 0;
-  display: inline-block;
+  display: inline;
 }
 
 .img-flex {
@@ -44,11 +40,6 @@ p {
   font-style: italic;
   font-size: 2rem;
   font-family: "Open Sans", sans-serif;
-  position: absolute;
-  width: 600px;
-  transform: translateX(-50%);
-  left: 48%;
-  bottom: .5em;
 }
 
 body {
