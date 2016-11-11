@@ -9,7 +9,7 @@ html {
 .banner {
   position: relative;
   overflow: hidden;
-  overflow: hidden;
+  max-height: 500px;
 }
 
 .banner-content {
